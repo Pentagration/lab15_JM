@@ -60,7 +60,8 @@ def craps():
 ##########################################
   
 def calendar():
-  #this isn't working when I import outside the function
+  #IMPORT CALENDAR WHEN CALLED OUTSIDE THE FUNCTION ISN'T WORKING
+  #DIDN'T WORK ON MY WINDOWS 10 OR MARCUS LINUX
   import calendar
   print "Input your birth year and month"
   year = input("Input your birth year: ")
@@ -80,6 +81,8 @@ def daysTo():
   print daysToBirthday.days
 
 def dayOfMyBirthday():
+  #IMPORT CALENDAR WHEN CALLED OUTSIDE THE FUNCTION ISN'T WORKING
+  #DIDN'T WORK ON MY WINDOWS 10 OR MARCUS LINUX
   import calendar
   print "Find out what the full date for your birthday was"
   year = input("Input birth year: ")
